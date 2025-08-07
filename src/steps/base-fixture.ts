@@ -14,4 +14,4 @@ export const test = base.extend<TestFixture>({
 	},
 });
 
-export const { Given, When, Then, BeforeScenario } = createBdd(test);
+export const { Given, When, Then, Step } = createBdd(test);

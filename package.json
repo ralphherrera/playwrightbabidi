@@ -4,7 +4,8 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"test": "npx bddgen --tags %npm_config_tags% && npx playwright test"
+		"test": "npx bddgen --tags %npm_config_tags% && npx playwright test",
+		"watch-test": "npx bddgen --tags %npm_config_tags% && npx playwright test --headed"
 	},
 	"keywords": [],
 	"author": "",
